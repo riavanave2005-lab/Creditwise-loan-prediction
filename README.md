@@ -35,22 +35,4 @@ CreditWise is an end-to-end machine learning pipeline that predicts whether a lo
 - Pandas, NumPy (Data processing)
 - Matplotlib, Seaborn (Visualizations)
 
-## 📦 Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/Creditwise-loan-prediction.git
-cd Creditwise-loan-prediction
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Train the model
-python3 main.py
-
-# Run the web application
-python3 app/app.py
