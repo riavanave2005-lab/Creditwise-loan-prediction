@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Data files
+*.csv
+*.xlsx
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Models folder (excluding images)
+models/*.pkl
+models/*.h5
+!models/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local
+
+# Flask
+instance/
+app/__pycache__/
+src/__pycache__/
